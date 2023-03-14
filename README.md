@@ -25,6 +25,8 @@ With Dr Ibrahim’s permission, I collected every message he’s ever sent to us
 - Separate every word by a space and consider “.” a word (a state)
 - Other minor changes…
 
+## Using The Model
+
 After cleaning the data, we should build the core of our Markov model. Each word (state) will have a list of next possible words to follow, the <span style="color: orange;">probability</span> of each word coming next is calculated by its <span style="color: orange">frequency/total</span> occurrences.
 
 **```print(next_possible_words(“faut”))```**
